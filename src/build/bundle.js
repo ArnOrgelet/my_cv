@@ -1,0 +1,1 @@
+console.error("\nD:\\arnaud\\frontenddev\\my-cv\\src\\app-client.js:3\nimport ReactDOM from 'react-dom';\n^\nParseError: 'import' and 'export' may appear only with 'sourceType: module'");

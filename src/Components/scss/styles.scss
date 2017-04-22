@@ -1,0 +1,35 @@
+.cv-container {
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing : border-box;
+    background-color:#808080;
+}
+
+.cv-input-languages{
+      float:right;
+}
+.cv-clearfix-left{
+   clear:both
+}
+.cv-clearfix-left{
+   clear:left
+}
+.cv-clearfix-right{
+   clear:right
+}
+#RenderLayer_LineSet {
+}
+
+#scene_html{
+        background-color : transparent;
+    ul  {
+        background-color : transparent;
+        li {
+        background-color : transparent;
+            color: #4cff00;
+            &:hover {
+                color : #ffd800;
+            }
+        }
+    }
+}

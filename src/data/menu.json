@@ -1,0 +1,64 @@
+{
+   menu : [
+      {
+         key : "cv-resume",
+         redirect : "Resume",
+         img : "xx.png",
+         title : {
+            fr : "mon CV",
+            en : "my Resumee",
+            de : "mein Lebenslauf",
+            get : function(){return this[language];}
+         },
+         submenus : [
+            {
+               key : "cv-pre_Bac",
+               redirect : "Pre_Bac",
+               img : "xx.png",
+               title : {
+                  fr : "Pre Bac",
+                  en : "before Bac",
+                  de : "vor dem Abi",
+                  get : function(){return this[language];}
+               },
+               submenus : null
+            },
+          {
+            key: "cv-projects",
+            redirect: "Projects",
+            img: "xx.png",
+            title: {
+              fr: "mes Projets",
+              en: "my Projects",
+              de: "meine Projekte",
+              get: function()
+              {
+                return this
+                [ language ]
+                ;
+              }
+            },
+            submenus: [
+              {
+                key: "cv-University",
+                redirect: "Pre_Bac",
+                img: "xx.png",
+                title: {
+                  fr: "Pre Bac",
+                  en: "before Bac",
+                  de: "vor dem Abi",
+                  get: function()
+                  {
+                    return this
+                    [ language ]
+                    ;
+                  }
+                },
+                submenus: null
+              }
+            ]
+          }
+         ]
+      }
+   ]
+}
